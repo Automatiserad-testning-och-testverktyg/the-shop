@@ -41,7 +41,7 @@ public class stepDef_SmokeTest { // Skrivet av Linn Bergström
     public void title_is(String expectedTitle) {
         String actualTitle = driver.getTitle();
         System.out.println(actualTitle);
-        Assertions.assertEquals(string, actualTitle);
+        Assertions.assertEquals(expectedTitle, actualTitle);
     }
 
 }
