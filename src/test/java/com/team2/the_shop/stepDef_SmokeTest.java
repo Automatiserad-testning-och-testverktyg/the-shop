@@ -40,7 +40,6 @@ public class stepDef_SmokeTest { // Skrivet av Linn Bergström
     @Then("title is {string}")
     public void title_is(String string) {
         String actualTitle = driver.getTitle();
-      //  String expectedTitle = "Webbutiken";
         System.out.println(actualTitle);
         Assertions.assertEquals(string, actualTitle);
     }
