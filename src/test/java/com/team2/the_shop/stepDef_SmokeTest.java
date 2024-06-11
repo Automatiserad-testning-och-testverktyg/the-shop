@@ -21,6 +21,8 @@ public class stepDef_SmokeTest {
     public void setup(){
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
+        options.addArguments("--headless=new");
+        options.addArguments("--disable-gpu");
         driver = new ChromeDriver();
     }
 
