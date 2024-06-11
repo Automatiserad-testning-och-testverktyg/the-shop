@@ -38,7 +38,7 @@ public class stepDef_SmokeTest { // Skrivet av Linn Bergström
     }
 
     @Then("title is {string}")
-    public void title_is(String string) {
+    public void title_is(String expectedTitle) {
         String actualTitle = driver.getTitle();
         System.out.println(actualTitle);
         Assertions.assertEquals(string, actualTitle);
