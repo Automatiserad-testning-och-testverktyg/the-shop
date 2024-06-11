@@ -23,7 +23,7 @@ public class stepDef_SmokeTest { // Skrivet av Linn Bergström
         options.addArguments("--incognito");
         options.addArguments("--headless=new");
         options.addArguments("--disable-gpu");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
     }
 
     @After
