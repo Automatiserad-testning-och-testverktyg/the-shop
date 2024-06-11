@@ -27,9 +27,10 @@ public class stepDef_SmokeTest { // Skrivet av Linn Bergström
     }
 
     @After
-    public void closeDriver() {
-        if(driver != null);
-        driver.quit();
+    public void teardown() {
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     @Given("User is on the webshop page")
