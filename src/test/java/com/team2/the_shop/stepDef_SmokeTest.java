@@ -12,7 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class stepDef_SmokeTest {
+public class stepDef_SmokeTest { // Skrivet av Linn Bergström
 
 
     WebDriver driver;
