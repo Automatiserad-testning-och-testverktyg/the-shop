@@ -18,7 +18,6 @@ public class stepDef_homepage { // Skrivet av Linn Bergström
 
 
     WebDriver driver;
-    private By img;
 
     @Before
     public void setup(){
