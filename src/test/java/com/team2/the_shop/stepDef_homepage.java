@@ -12,6 +12,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class stepDef_homepage { // Skrivet av Linn Bergström
@@ -35,15 +36,15 @@ public class stepDef_homepage { // Skrivet av Linn Bergström
         }
     }
 
-    @Given("User is on the webshop page")
-    public void user_is_on_the_webshop_page() {
+    @Given("User is on the home page")
+    public void user_is_on_the_home_page() {
         driver.get("https://webshop-agil-testautomatiserare.netlify.app");
     }
 
     @Then("title is {string}")
     public void title_is(String expectedTitle) {
         String actualTitle = driver.getTitle();
-        Assertions.assertEquals(expectedTitle, actualTitle);
+        assertEquals(expectedTitle, actualTitle);
     }
 
     @Then("text is presented")
@@ -69,7 +70,7 @@ public class stepDef_homepage { // Skrivet av Linn Bergström
     @Then("User is on new page with title {string}")
     public void user_is_on_new_page_with_title(String expectedNewPageTitle) {
         String newPageTitle = driver.getTitle();
-        Assertions.assertEquals(expectedNewPageTitle,newPageTitle);
+        assertEquals(expectedNewPageTitle,newPageTitle);
 
     }
 
