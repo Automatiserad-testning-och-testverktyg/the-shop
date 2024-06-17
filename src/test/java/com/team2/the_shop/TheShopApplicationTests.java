@@ -11,8 +11,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class TheShopApplicationTests {
 
-//	@Test
-//	void contextLoads() {
-//	}
 
 }
