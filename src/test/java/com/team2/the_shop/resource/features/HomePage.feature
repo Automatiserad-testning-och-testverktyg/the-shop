@@ -1,4 +1,4 @@
-Feature: smoke test
+Feature: Home page
 
   Scenario: page loads and title is "Webbutiken"
     Given User is on the webshop page
