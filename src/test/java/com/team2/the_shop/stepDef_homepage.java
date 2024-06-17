@@ -69,7 +69,6 @@ public class stepDef_homepage { // Skrivet av Linn Bergström
     @Then("User is on new page with title {string}")
     public void user_is_on_new_page_with_title(String expectedNewPageTitle) {
         String newPageTitle = driver.getTitle();
-        System.out.println(newPageTitle);
         Assertions.assertEquals(expectedNewPageTitle,newPageTitle);
 
     }
