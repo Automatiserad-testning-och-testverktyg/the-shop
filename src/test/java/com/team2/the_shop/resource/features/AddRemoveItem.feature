@@ -8,5 +8,5 @@ Feature: AddRemoveItem
   Scenario: Test remove 1 item from the cart
     Given the user is on the page "https://webshop-agil-testautomatiserare.netlify.app/checkout"
     And   the cart contains 1 item
-    When  the user removes "1" item from the cart
+    When  the user removes 1 item from the cart
     Then  the cart should contain 0 items
