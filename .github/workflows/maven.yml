@@ -23,7 +23,7 @@ jobs:
 
       - name: Install ChromeDriver
         run: |
-          wget https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/linux64/chromedriver-linux64.zip
+          wget https://storage.googleapis.com/chrome-for-testing-public/125.0.6422.141/linux64/chromedriver-linux64.zip
           unzip chromedriver-linux64.zip
           cd chromedriver-linux64
           chmod +x chromedriver
