@@ -71,4 +71,5 @@ public class StepDefinitionShopPage { // Skrivet av Sweta Bagchi
             driver.quit();
         }
     }
+
 }
