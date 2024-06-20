@@ -9,7 +9,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 @CucumberOptions(
 		features = "src/test/java/com/team2/the_shop/resource/features",
 		plugin = {"pretty", "html:target/cucumber-report.html"},
-		glue={"com.team2.the_shop"}
+		glue={"com.team2.the_shop"} ,
+		publish = true
 		)
 
 @SpringBootTest
