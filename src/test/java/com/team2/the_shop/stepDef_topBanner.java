@@ -15,6 +15,7 @@ import java.time.Duration;
 
 public class stepDef_topBanner {
 
+    //top banner skrivet av Linn Bergstrom
     public ChromeDriver driver;
     @Before
     public void openBrowser() {
