@@ -2,7 +2,6 @@ Feature: Top Banner
   Background: Start on home page
     Given User is on homepage
 
-
   Scenario: shop link is clickable and top banner is visible
     When User clicks Shop link
     Then Shop page title should be "The Shop | Products"
