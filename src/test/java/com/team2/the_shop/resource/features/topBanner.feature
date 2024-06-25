@@ -1,26 +1,24 @@
 Feature: Top Banner
+  Background: Start on home page
+    Given User is on homepage
 
-  Scenario:
-    Given User is on Home page
-    Then Top banner is visible
-    And Shop link leads to shop page
+  Scenario: shop link is clickable and top banner is visible
+    When User clicks Shop link
+    Then Shop page title should be "The Shop | Products"
+    And Top banner should be visible
 
-  Scenario:
-    Given User is on Shop page
-    Then Top banner is visible
-    And Checkout button leads to checkout page
+  Scenario: About link is clickable and top banner is visible
+    When User clicks About link
+    Then About page title should be "The Shop | About"
+    And Top banner should be visible
 
-  Scenario:
-    Given User is on Checkout page
-    Then Top banner is visible
-    And Home link leads to home page
+  Scenario: Checkout button is clickable and top banner is visible
+    When User clicks on Checkout button
+    Then Checkout page title should be "The Shop | Checkout"
+    And Top banner should be visible
 
-  Scenario:
-    Given User is on About page
-    Then Top banner is visible
-    And The shop icon leads to home page
-
-  Scenario:
-    Given User is on Home page
-    Then Top banner is visible
-    And About link leads to about page
+  Scenario: Home link is clickable and top banner is visible
+    When User clicks About link
+    When User clicks Home link
+    Then Home page title should be "The Shop"
+    And Top banner should be visible
