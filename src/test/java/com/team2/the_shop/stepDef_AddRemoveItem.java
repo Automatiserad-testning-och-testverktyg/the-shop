@@ -32,7 +32,9 @@ public class stepDef_AddRemoveItem { // Skrivet av Sebastian Cardona Cervantes
 
     @After
     public void tearDown() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     @Given("the user is on the page {string}")
