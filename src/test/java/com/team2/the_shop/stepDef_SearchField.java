@@ -17,7 +17,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class stepDef_SearchField {
+public class stepDef_SearchField { // Skrivet av Sebastian Cardona Cervantes
 
     private WebDriver driver;
     private WebDriverWait wait;
