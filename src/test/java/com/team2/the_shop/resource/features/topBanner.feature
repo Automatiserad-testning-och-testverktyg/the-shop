@@ -1,4 +1,5 @@
 Feature: Top Banner
+  # Skrivet av Linn Bergström
   Background: Start on home page
     Given User is on homepage
 
