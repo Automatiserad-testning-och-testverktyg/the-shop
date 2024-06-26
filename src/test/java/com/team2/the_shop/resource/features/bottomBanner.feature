@@ -1,4 +1,4 @@
- Feature: Bottom Banner
+ Feature: Bottom Banner // Tests by Swapnal Hardikar
 
    Background:
      Given User is on home page of the webshop
