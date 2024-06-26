@@ -14,5 +14,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 		)
 
 @SpringBootTest
-public class TheShopApplicationTests {
+public class TheShopApplicationTests { // Skrivet av Jamie Blomerus
 }
