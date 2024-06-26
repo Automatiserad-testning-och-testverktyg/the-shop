@@ -1,5 +1,6 @@
 Feature: AddRemoveItem
-
+  # Skrivet av Sebastian Cardona Cervantes
+  
   Scenario: Test add 1 item to the cart
     Given the user is on the page "https://webshop-agil-testautomatiserare.netlify.app/products"
     When  the user adds 1 item to the cart
