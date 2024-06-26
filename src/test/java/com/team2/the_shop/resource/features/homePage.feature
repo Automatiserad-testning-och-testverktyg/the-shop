@@ -1,4 +1,5 @@
 Feature: Home page
+  # Skrivet av Linn Bergström
 
   Scenario: page loads and title is "Webbutiken"
     Given User is on the home page
