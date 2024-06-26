@@ -1,4 +1,5 @@
 Feature: Test for "Shop" page
+  # Skrivet av Sweta Bagchi
 
   Background:
     Given webshop page is available
