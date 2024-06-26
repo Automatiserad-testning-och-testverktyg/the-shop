@@ -13,7 +13,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-public class stepDef_bottomBanner {
+public class stepDef_bottomBanner { // Skrivet av Swapnal Hardikar
 
     public ChromeDriver driver;
     @Before
